@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     TextView longitudeView;
     int PERMISSION_REQUEST_CODE;
     int MENU_SELECT_STATE = 1;
-    Handler handler = new Handler();
     LocationManager manager;
     LocationListener locationListener;
 
